@@ -1,0 +1,65 @@
+/*设置登录界面的背景图片和尺寸*/
+body{
+	background: url("../images/MountFuJi.jpg") repeat;
+	width:100%;
+	overflow: hidden;
+	
+}
+
+/*消除bootstrap的登录和密码图标的错位*/
+.glyphicon{
+	position: relative;
+	top: 0vw;
+}
+.container .title_logo{
+	margin-top: 18vh;
+	margin-bottom: 12vh;
+}
+/*设置主标题和副标题的样式*/
+.container h2,h3{
+	color: #ffffff;
+	font-size: 3em;
+}
+
+/*设置每行的外边距*/
+.container>.row{
+	padding-bottom:3vh;
+}
+form>.row{
+	padding-bottom:3vh;
+}
+
+/*设置忘记密码和跳转到登录界面链接的样式*/
+.container .row p a{
+	color:#ffffff;
+	font-size: 1vh;
+}
+.container .row p a.to_login,a.to_register{
+	float: right;
+}
+
+/*设置选项卡样式*/
+.tab{
+	font-size: 2em;
+	color: #ffffff;
+	padding: 1vh 0vh;
+	border-bottom: 0.1vh solid #cccccc;
+	cursor: pointer;
+}
+.tab_this{
+	color: #33ccdd;
+	border-bottom: 0.2vh solid #ffffff;
+	background-color: #444444;
+	border-radius: 1vw 1vw 0 0;
+}
+
+/*获取验证码的样式*/
+.phone_code{
+	cursor:pointer;
+}
+
+
+.input-lg,.btn-lg{
+	height: 5vh;
+	font-size: 1vh;
+}
